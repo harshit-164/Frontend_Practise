@@ -1,0 +1,582 @@
+@font-face {
+    font-family: 'apple';
+    src: url(./assets/fonts/sf-pro-display_regular.woff2);
+}
+
+*{
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box; 
+  
+}
+ 
+html, body{
+ height: 100%; 
+ width: 100%; 
+}
+
+
+#nav{
+    width: 100%;
+    height: 44px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#nav > a {
+    text-decoration: none;
+    color: rgba(27, 26, 26, 0.911);
+    font-family: apple;
+    font-weight: 100;
+    transition: color 0.3s, font-size 0.3s, font-weight 0.3s;
+}
+
+#nav > a:hover {
+    color: black;
+    font-family: apple;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+i{
+    cursor: pointer;
+}
+
+.ri-apple-fill:hover{
+    color: crimson;
+}
+
+.ri-search-line{
+    color: rgba(27, 26, 26, 0.911);
+    transition: color 0.3s, font-size 0.3s, font-weight 0.3s;
+}
+
+.ri-search-line:hover{
+    color: black;
+    font-size: 18px;
+}
+
+.ri-shopping-bag-line{
+    color: rgba(27, 26, 26, 0.911);
+    transition: color 0.3s, font-size 0.3s, font-weight 0.3s;
+}
+
+.ri-shopping-bag-line:hover{
+    color: black;
+    font-size: 18px;
+}
+
+
+#pic{
+    height: 80%;
+    width:100%;
+    background-image: url(./assets/images/hero_diwali.jpg);
+    background-size: 75% auto;
+    background-position:center top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* align-items: end; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.content{
+    /* margin-top: 410px; */
+    margin-top: 26%;
+}
+
+.content>h1{
+    font-family: apple;
+    font-weight: 600;
+    font-size: 50px;
+}
+.content>p{
+    margin-top: 8px;
+    font-family: apple;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.content> button {
+    height: 45px;
+    width: 85px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #0077ED;
+    color: #0077ED;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.content> button:hover{
+    color:#FFFFFF;
+    background-color: #0077ED;
+}
+
+
+#phone{
+    width: 100%;
+    height: 600px;
+    background-image: url(./assets/images/hero_iphone_17_pro.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+#phone{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    text-align: center;
+}
+
+.content2{
+    margin-top: 38px;
+}
+
+
+.content2>h1{
+    font-family: apple;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.content2>h3{
+    font-family: apple;
+    font-weight: 300;
+    font-size: 30px;
+    color: #FFF;
+    margin-top: 8px;
+}
+
+
+.content2> #btn1 {
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+    background-color: #0077ED;
+    color: white;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.content2> #btn2 {
+    height: 45px;
+    width: 85px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #0077ED;
+    color: #0077ED;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.content2> #btn2:hover{
+    color:#FFFFFF;
+    background-color: #0077ED;
+}
+
+
+#air{
+    width:100%;
+    height: 500px;
+    background-image: url(./assets/images/hero_iphone_air.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.content3{
+    margin-top: 40px;
+}
+
+.content3>h1{
+    font-family: apple;
+    color: #1D1D1F;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.content3>p{
+    font-family: apple;
+    font-weight: 300;
+    font-size: 30px;
+    color: #1D1D1F;
+    margin-top: 8px;
+}
+
+
+.content3> #btn1 {
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+    background-color: #0077ED;
+    color: white;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.content3> #btn2 {
+    height: 45px;
+    width: 85px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #0077ED;
+    color: #0077ED;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.content3> #btn2:hover{
+    color:#FFFFFF;
+    background-color: #0077ED;
+}
+
+#promo{
+    height: 1800px;
+    width: 100%;
+    background-color: #1D1D1F;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+.promoBoxes{
+    height: 600px;
+    width: 50%;
+    text-align: center;
+
+}
+
+#i1{
+    /* background-color: #0077ED; */
+    background-image: url(./assets/images/promo_iphone_17.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+#i2{
+    /* background-color: #00ed33; */
+    background-image: url(./assets/images/promo_apple_watch_series_11.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+#i3{
+    /* background-color: #2400ed; */
+    background-image: url(./assets/images/promo_edu.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+#i4{
+    /* background-color: #ed3f00; */
+    background-image: url(./assets/images/promo_airpodspro_3.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+#i5{
+    /* background-color: #ed00ba; */
+    background-image: url(./assets/images/promo_macbook_air.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+#i6{
+    /* background-color: #c5ed00; */
+    background-image: url(./assets/images/promo_iphone_tradein.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.content4{
+    margin-top: 30px;
+}
+
+.content4>h1{
+    font-family: apple;
+    color: #1D1D1F;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.content4>p{
+    font-family: apple;
+    font-weight: 300;
+    font-size: 30px;
+    color: #1D1D1F;
+    margin-top: 8px;
+}
+
+
+.content4> #btn1 {
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+    background-color: #0077ED;
+    color: white;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.content4> #btn2 {
+    height: 45px;
+    width: 85px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #0077ED;
+    color: #0077ED;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.content4> #btn2:hover{
+    color:#FFFFFF;
+    background-color: #0077ED;
+}
+
+
+.content5{
+    margin-top: 30px;
+}
+.content5>h1{
+    font-family: apple;
+    color: #1D1D1F;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.content5>p{
+    font-family: apple;
+    font-weight: 300;
+    font-size: 30px;
+    color: #1D1D1F;
+    margin-top: 8px;
+}
+
+
+.content5> #btn1 {
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+    background-color: #0077ED;
+    color: white;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.content5> #btn2 {
+    height: 45px;
+    width: 85px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #0077ED;
+    color: #0077ED;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.content5> #btn2:hover{
+    color:#FFFFFF;
+    background-color: #0077ED;
+}
+
+.content6{
+    margin-top: 350px;
+}
+
+.content6>h1{
+    font-family: apple;
+    color: #F5F5F7;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.content6>p{
+    font-family: apple;
+    font-weight: 300;
+    font-size: 30px;
+    color: #F5F5F7;
+    margin-top: 8px;
+}
+
+
+.content6> #btn1 {
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+    background-color: #0077ED;
+    color: white;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.content6> #btn2:hover{
+    color:#FFFFFF;
+    background-color: #0077ED;
+}
+
+.content7{
+    margin-top: 40px;
+}
+
+.content7>h1{
+    font-family: apple;
+    color: #1D1D1F;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.content7>p{
+    font-family: apple;
+    font-weight: 300;
+    font-size: 30px;
+    color: #1D1D1F;
+    margin-top: 8px;
+}
+
+
+.content7> #btn1 {
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+    background-color: #0077ED;
+    color: white;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.content7> #btn2 {
+    height: 45px;
+    width: 85px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #0077ED;
+    color: #0077ED;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.content7> #btn2:hover{
+    color:#FFFFFF;
+    background-color: #0077ED;
+}
+
+.content8{
+    margin-top: 40px;
+}
+
+.content8>h1{
+    font-family: apple;
+    color: #1D1D1F;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.content8>p{
+    font-family: apple;
+    font-weight: 300;
+    font-size: 30px;
+    color: #1D1D1F;
+    margin-top: 8px;
+}
+
+
+.content8> #btn1 {
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+    background-color: #0077ED;
+    color: white;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.content8> #btn2 {
+    height: 45px;
+    width: 85px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #0077ED;
+    color: #0077ED;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.content8> #btn2:hover{
+    color:#FFFFFF;
+    background-color: #0077ED;
+}
+
+.content9{
+    margin-top: 40px;
+}
+
+.content9>h1{
+    font-family: apple;
+    color: #1D1D1F;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.content9>p{
+    font-family: apple;
+    font-weight: 300;
+    font-size: 30px;
+    color: #1D1D1F;
+    margin-top: 8px;
+}
+
+
+.content9> #btn1 {
+    height: 45px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    background-color: #0077ED;
+    color: white;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+

@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'LL';
+    src: url(./fonts/LetteraMonoLL-Regular.otf);
+}
+@font-face{
+    font-family: 'LLM';
+    src: url(./fonts/Ndot-55.otf);
+}
+
+*{
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box;  
+}
+ 
+html, body{
+  height: 100%; 
+  width: 100%; 
+  background-image: url(https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/5699d16359ab2ec2606cecd36238baf8a77e4df4/1811ccfaa557c9faf379dc7d1592d49580341498);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+
+img{
+    height: 250px;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.container{
+    margin-top: 12%;
+
+}
+
+h1{
+    color: white;
+    font-size: 48px;
+    font-family: LL;
+}
+
+button{
+    color: white;
+    font-size: 20px;
+    font-family: LLM ;
+    background-color: transparent;
+    border: 2px solid white;
+    height:50px;
+    width:120px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+button:hover {
+    /* Add your hover styles here, for example: */
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

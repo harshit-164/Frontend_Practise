@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@mixin flexcenter(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    position: relative;
+    @include flexcenter();
+
+    section{
+        height: 100%;
+        flex-grow: 1;
+        cursor: pointer;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1) ;
+    }
+
+    section:hover{
+        flex-grow: 2.5;
+        
+    }
+
+    section:nth-child(1){
+        background-image: url(./images/zoro2.jpg);
+    }
+    section:nth-child(2){
+        background-image: url(./images/luffy2.jpg);
+    }
+    section:nth-child(3){
+        background-image: url(./images/shanks.jpg);
+    }
+    section:nth-child(4){
+        background-image: url(./images/portgas.jpg);
+    }
+    section:nth-child(5){
+        background-image: url(./images/sanji.jpg);
+    }
+
+    .btn{
+        position: absolute
+    }
+
+    @import 'button';
+    .red{
+        @include button(red);
+    }
+    .yellow{
+        @include button(yellow);
+    }
+    .orange{
+        @include button(orange);
+    }
+    
+}

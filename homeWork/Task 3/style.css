@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Base;
+    src: url(./fonts/BasementGrotesque-Black_v1.202.otf);
+}
+
+@font-face {
+    font-family: cursive;
+    src: url(./fonts/RockSalt-Regular.ttf);
+}
+
+@font-face {
+    font-family: mono;
+    src: url(../fonts/LetteraMonoLL-Regular.otf);
+}
+
+@font-face {
+    font-family: arch;
+    src: url(../fonts/Archivo-Italic-VariableFont_wdth\,wght.ttf);
+}
+*{
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box; 
+
+}
+ 
+html, body{
+ height: 100%; 
+ width: 100%; 
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#head{
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+#nav-left{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px 10px 10px;
+    
+}
+
+#nav-left>a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+#nav-right{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 80px;
+    
+}
+
+#nav-right>a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h2{
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: Base;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-family: arch;
+    font-weight:300;
+    font-size: 180px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+#btmleft{
+    width: 350px;
+    height:120px;
+    margin-left:0.8%;
+    margin-top: 10%;
+    
+}
+
+P{
+    font-family: arch;
+    margin-top: 2px;
+
+}
+
+h3{
+    font-family: base;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+#bottom{
+    width: 100%;
+    height: 5.5%;
+    position: absolute;
+    bottom: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#bottom>a {
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+
+img{
+    height: 100px;
+    position: absolute;
+}
+
+#pic1{
+    left: 50%;
+    top: 44%;
+    height: 200px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#pic2{
+    left: 42%;
+    top: 34%;
+    height: 200px;
+    z-index: 4;
+    cursor: pointer;
+}
+
+#pic3{
+    left: 58%;
+    top: 30%;
+    height: 200px;
+    z-index: 1;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* space between containers */
+}
+
+
+
+#two {
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(#D97D55, #F4E9D7, #B8C4A9);
+    margin-top: 12.5%;
+    margin-left:0%;
+}
+
+#one {
+    height: 400px;
+    width: 400px;
+    background: radial-gradient(#D97D55, #F4E9D7, #B8C4A9);
+    margin-top: 12.5%;
+    margin-left:0%;
+}
+
+#three {
+    height: 400px;
+    width: 400px;
+    background: conic-gradient(#D97D55, #F4E9D7, #B8C4A9, #D97D55);
+    margin-top: 12.5%;
+    margin-right:0%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUGHATI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">BUGHATI</h1>
+    
+    <div class="card" id="animate">
+        <img src="./assets/images/bughati.jpg" alt="">
+        <div class="bottom"></div>
+    </div>
+
+    <script>
+const card = document.getElementById('animate');
+const heading = document.getElementById('heading');
+
+card.addEventListener('mouseenter', () => {
+  heading.style.color = 'black';
+});
+card.addEventListener('mouseleave', () => {
+  heading.style.color = 'crimson';
+});
+</script>
+
+</body>
+</html>

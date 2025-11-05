@@ -1,0 +1,190 @@
+@font-face {
+    font-family: monk;
+    src: url("./assets/fonts/BBHSansBogle-Regular.ttf");
+}
+
+
+*{
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box; 
+ font-family: 'Gilroy'; 
+}
+ 
+html, body{
+ height: 100%; 
+ width: 100%; 
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.main-cont{
+    height: 500px;
+    width: 700px;
+    border-radius: 30px;
+    background-color: khaki;
+    margin-top: 200px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    flex-shrink: 0;
+}
+
+.box:nth-child(2){
+    /* background-color: aliceblue; */
+    background-image: url("https://t3.ftcdn.net/jpg/11/38/24/50/360_F_1138245087_7xEUZCvdX4BuIc3QbgnoYlZvIhZvgknF.jpg");
+    object-fit: cover;
+    background-position: center;
+
+}
+
+.box:nth-child(3){
+    background-image: url("https://t3.ftcdn.net/jpg/11/38/24/50/360_F_1138245087_7xEUZCvdX4BuIc3QbgnoYlZvIhZvgknF.jpg");
+    object-fit: cover;
+    background-position: center;
+}
+
+.box:nth-child(1){
+    background-image: url("https://t3.ftcdn.net/jpg/17/10/97/76/360_F_1710977622_bffCptpR7hYEhobWZWuBwPqk4z6oMUY3.jpg");
+    object-fit: cover;
+    background-position: center;
+}
+
+.box:nth-child(4){
+    background-image: url("https://t3.ftcdn.net/jpg/17/10/97/76/360_F_1710977622_bffCptpR7hYEhobWZWuBwPqk4z6oMUY3.jpg");
+    object-fit: cover;
+    background-position: top ;
+}
+
+.slider{
+    height: 300px;
+    width: 100%;
+    margin-top: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: auto;
+    overflow-y: hidden;
+    gap: 20px; 
+}
+
+.card1{
+    height: 280px;
+    width: 1000px;
+    background: url("https://thumbs.dreamstime.com/b/cool-monkey-sunglasses-tropical-beach-ai-generated-illustration-325079920.jpg");
+    object-fit: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.card2{
+    height: 280px;
+    width: 1000px;
+    background: url("https://img.freepik.com/premium-photo/monkey-wearing-sunglasses-hat-generative-ai-art_158863-14646.jpg");
+    object-fit: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.card3{
+    height: 280px;
+    width: 1000px;
+    background: url("https://t4.ftcdn.net/jpg/06/25/12/29/360_F_625122939_tI2kbke1nkvOzbCEh3SXI9KNiGf3SPMj.jpg");
+    object-fit: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.card4{
+    height: 280px;
+    width: 1000px;
+    background: url("https://t4.ftcdn.net/jpg/06/25/12/29/360_F_625122939_tI2kbke1nkvOzbCEh3SXI9KNiGf3SPMj.jpg");
+    object-fit: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.card5{
+    height: 280px;
+    width: 1000px;
+    background: url("https://cdn.vectorstock.com/i/500p/61/54/monkey-with-headphones-vintage-vector-46636154.jpg");
+    object-fit: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.card6{
+    height: 280px;
+    width: 1000px;
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20240924/pngtree-cool-monkey-with-headphones-and-sunglasses-image_16249159.jpg");
+    object-fit: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.card7{
+    height: 280px;
+    width: 1000px;
+    background: url("https://img.freepik.com/premium-photo/cool-chimpanzee-listening-music-with-headphones-sunglasses-yellow-background_14117-588890.jpg?w=360");
+    object-fit: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.card8{
+    height: 280px;
+    width: 400px;
+    background: url("https://as1.ftcdn.net/jpg/05/54/53/70/1000_F_554537004_rzDWIqP7YW0uBwVjoRgaEDdohJpU2uiU.jpg");
+    object-fit: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+/* .slider::-webkit-scrollbar{
+    display: none;
+} */
+
+
+
+.slider::-webkit-scrollbar {
+  width: 1px;
+}
+
+.slider::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 20px;
+}
+
+
+.slider::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+/* #fotter{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(22, 68, 108);
+} */
+
+H1{
+    color: transparent;
+    font-family: monk;
+    font-size: 200px;
+    margin-top: 80px;
+    -webkit-text-stroke: 0.1px black;
+    background: url("https://media.tenor.com/NHE_-7XlmXYAAAAM/neon-paint-neon-paint-splatter.gif");
+    background-clip: text;
+}
+

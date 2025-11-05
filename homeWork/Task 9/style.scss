@@ -1,0 +1,67 @@
+@mixin fit {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    // background-color: #e2353599;
+    background-color: #ffffff83;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 80%;
+    width: 80%;
+    
+
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "div1 div2 div2 div2 " 
+                         "div1 div3 div4 div5 "
+    ;
+
+
+    .div1{
+        grid-area: div1;
+        background-image: url(https://i.pinimg.com/736x/4e/19/dd/4e19dd207d50e8d0a5412e71186af765.jpg);
+        @include fit;
+    }
+
+    .div2{
+        grid-area: div2;
+        background-image: url(https://i.pinimg.com/1200x/78/f2/84/78f28408fe61caf05df8c440810655dc.jpg);
+       @include fit;
+    }
+
+    .div3{
+        grid-area: div3;
+        background-image: url(https://i.pinimg.com/736x/5e/e4/64/5ee464f0abb1cf54ca5f6353c72f0ca8.jpg);
+       @include fit;
+    }
+
+    .div4{
+        grid-area: div4;
+        background-image: url(https://i.pinimg.com/736x/ea/3a/a6/ea3aa6c5965f5264d4e8255267b88707.jpg);
+       @include fit;
+    }
+
+    .div5{
+        grid-area: div5;
+        background-image: url(https://i.pinimg.com/736x/99/ff/79/99ff79d893dc19ae107d6b90359fb126.jpg);
+       @include fit;
+    }
+
+}
