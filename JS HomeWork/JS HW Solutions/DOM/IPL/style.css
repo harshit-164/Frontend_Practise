@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+#box{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.818);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box .box-up h1{
+    font-weight: 750;
+    font-size: 40px
+}
+
+#box .box-mid .trophy{
+    display: flex;
+}
+
+#box .box-mid h2,h3,.trophy h3{
+    font-weight: 600;
+}
+
+#box .box-mid .trophy h4{
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: large;
+    display: inline-flex;
+}
+
+#box .box-down{
+    height: 160px;
+    width: 250px;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(179, 179, 18, 0.894);
+    color: aliceblue;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:active{
+    scale: 0.95;
+}
