@@ -1,0 +1,52 @@
+*{
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box; 
+}
+ 
+html, body{
+ height: 100%; 
+ width: 100%;
+ background-color: black; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.card{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.img img{
+    height: 450px;
+    width: 340px;
+    border-radius: 10px;
+    position: relative;
+    object-fit: cover;
+}
+
+.img{
+    position: relative;
+    overflow: hidden;
+}
+
+.img i{
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.5);
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.2-MbZ3BCGMonRTVk3DHVkgHaEo?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
